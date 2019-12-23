@@ -8,7 +8,7 @@ define("CORE", ROOT . "/vendor/ishop/core");
 define("LIBS", ROOT . "/vendor/ishop/core/libs");
 define("CACHE", ROOT . "/tmp/cache");
 define("CONFIG", ROOT . "/config");
-define("TEMPLATE", "default");
+define("TEMPLATE", "watches"); // название шаблона по умолчанию
 
 //  http://ishop.loc/public/index.php
 $app_path = "http://{$_SERVER['HTTP_HOST']}{$_SERVER['PHP_SELF']}"; //получаем полный адрес
