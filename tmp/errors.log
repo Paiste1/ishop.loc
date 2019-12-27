@@ -166,3 +166,7 @@
 =====================
 [2019-12-27 08:22:18] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting elseif (T_ELSEIF) or else (T_ELSE) or endif (T_ENDIF) | Файл: C:\OSPanel\domains\ishop.loc\app\views\Product\view.php | Строка: 169
 =====================
+[2019-12-27 08:54:14] Текст ошибки: Контроллер app\controllers\CartController не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2019-12-27 09:09:53] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
