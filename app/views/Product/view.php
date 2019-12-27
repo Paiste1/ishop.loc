@@ -172,6 +172,47 @@
                     </div>
                 </div>
                 <?php endif;?>
+                <?php if($recentlyViewed): ?>
+                    <div class="latestproducts">
+                        <div class="product-one">
+                            <h3>Недавно просмотренные: </h3>
+                            <?php foreach ($recentlyViewed as $item): ?>
+                                <?php
+                                $price = $item['price'] / $curr['value'];
+                                $price = number_format($price, 2, ',', '');
+                                $price_old = $item['old_price'] / $curr['value'];
+                                $price_old = number_format($price_old, 2, ',', '');
+                                ?>
+                                <div class="col-md-4 product-left p-left">
+                                    <div class="product-main simpleCart_shelfItem">
+                                        <a href="product/<?=$item['alias'];?>" class="mask"><img class="img-responsive zoom-img" src="images/<?=$item['img'];?>" alt="" /></a>
+                                        <div class="product-bottom">
+                                            <h3><a href="product/<?=$item['alias'];?>"><?=$item['title'];?></a></h3>
+                                            <p>Explore Now</p>
+                                            <h4>
+                                                <a class="item_add add-to-cart-link" href="cart/add?id=<?=$item['id'];?>" data-id="<?=$item['id'];?>"><i></i></a>
+                                                <span class="item_price"><?=$curr['symbol_left'];?><?=$price;?><?=$curr['symbol_right'];?></span>
+                                                <?php if($item['old_price']): ?>
+                                                    <small><del><?=$curr['symbol_left'];?><?=$price_old;?><?=$curr['symbol_right'];?></del></small>
+                                                <?php endif; ?>
+                                            </h4>
+                                        </div>
+                                        <?php if($item['old_price']):?>
+                                            <?php
+                                            $sale = 100 - ($item['price'] * 100 / $item['old_price']);
+                                            $sale = number_format($sale, 1, ',', '');
+                                            ?>
+                                            <div class="srch">
+                                                <span>-<?=$sale;?>%</span>
+                                            </div>
+                                        <?php endif; ?>
+                                    </div>
+                                </div>
+                            <?php endforeach;?>
+                            <div class="clearfix"></div>
+                        </div>
+                    </div>
+                <?php endif;?>
             </div>
             <div class="col-md-3 single-right">
                 <div class="w_sidebar">
