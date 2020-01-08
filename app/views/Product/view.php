@@ -63,6 +63,7 @@
                                 <del><?=$curr['symbol_left'];?><?=$price_old;?><?=$curr['symbol_right'];?></del>
                             <?php endif; ?>
                             <p><?=$product['content'];?></p>
+                            <?php if($mods):?>
                             <div class="available">
                                 <ul>
                                     <li>Color
@@ -76,6 +77,7 @@
                                     <div class="clearfix"> </div>
                                 </ul>
                             </div>
+                            <?php endif;?>
                             <ul class="tag-men">
                                 <li><span>Category</span>
                                     <span class="women1"><a href="category/<?=$cats[$product['category_id']]['alias'];?>"><?=$cats[$product['category_id']]['title'];?></a></span></li>

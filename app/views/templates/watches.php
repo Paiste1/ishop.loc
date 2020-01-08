@@ -90,6 +90,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--bottom-header-->
 
 <div class="content">
+    <?php //debug($_SESSION); //session_destroy(); ?>
     <?=$content;?>
 </div>
 
@@ -167,8 +168,6 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 
 <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
 <script src="js/jquery-1.11.0.min.js"></script>
-<!--start-menu-->
-<script src="js/simpleCart.min.js"> </script>
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>
 <!--Slider-Starts-Here-->
