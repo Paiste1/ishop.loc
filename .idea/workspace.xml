@@ -2,11 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b42877-7f03-4cbe-9270-dd7f003036f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/CartController.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/Breadcrumbs.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/Breadcrumbs.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/Product/view.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Product/view.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/templates/watches.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/watches.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/views/Main/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/Main/index.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/public/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/main.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterDir="false" />
@@ -38,13 +36,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/controllers/ProductController.php">
+        <entry file="file://$PROJECT_DIR$/app/views/Main/index.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="706">
-              <caret line="42" column="77" selection-start-line="42" selection-start-column="77" selection-end-line="42" selection-end-column="77" />
-              <folding>
-                <element signature="e#37#64#0#PHP" expanded="true" />
-              </folding>
+            <state relative-caret-position="527">
+              <caret line="71" column="69" lean-forward="true" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
             </state>
           </provider>
         </entry>
@@ -52,26 +47,20 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
+            <state relative-caret-position="340">
+              <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+              <folding>
+                <element signature="n#!!doc" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/templates/watches.php">
+        <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="672">
-              <caret line="241" column="2" selection-start-line="241" selection-start-column="2" selection-end-line="241" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/Product/view.php">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="60" column="90" selection-start-line="60" selection-start-column="90" selection-end-line="60" selection-end-column="90" />
+            <state relative-caret-position="357">
+              <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -115,7 +104,6 @@
         <option value="$PROJECT_DIR$/vendor/ishop/core/libs/functions.php" />
         <option value="$PROJECT_DIR$/app/controllers/CurrencyController.php" />
         <option value="$PROJECT_DIR$/app/widgets/currency/Currency.php" />
-        <option value="$PROJECT_DIR$/app/views/Main/index.php" />
         <option value="$PROJECT_DIR$/app/controllers/AppController.php" />
         <option value="$PROJECT_DIR$/vendor/ishop/core/Cache.php" />
         <option value="$PROJECT_DIR$/app/widgets/menu/menu_tpl/menu.php" />
@@ -128,8 +116,10 @@
         <option value="$PROJECT_DIR$/app/models/Breadcrumbs.php" />
         <option value="$PROJECT_DIR$/app/controllers/ProductController.php" />
         <option value="$PROJECT_DIR$/app/views/Product/view.php" />
-        <option value="$PROJECT_DIR$/public/js/main.js" />
         <option value="$PROJECT_DIR$/app/views/templates/watches.php" />
+        <option value="$PROJECT_DIR$/app/views/Main/index.php" />
+        <option value="$PROJECT_DIR$/public/js/main.js" />
+        <option value="$PROJECT_DIR$/app/controllers/CartController.php" />
       </list>
     </option>
   </component>
@@ -177,12 +167,6 @@
               <item name="ishop.loc" type="b2602c69:ProjectViewProjectNode" />
               <item name="ishop.loc" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ishop.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -190,14 +174,7 @@
               <item name="ishop.loc" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="Product" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ishop.loc" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ishop.loc" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="templates" type="462c0819:PsiDirectoryNode" />
+              <item name="Main" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="ishop.loc" type="b2602c69:ProjectViewProjectNode" />
@@ -259,12 +236,12 @@
       <workItem from="1577362378121" duration="4450000" />
       <workItem from="1577422448824" duration="9235000" />
       <workItem from="1578281438117" duration="3240000" />
-      <workItem from="1578458893063" duration="2874000" />
+      <workItem from="1578458893063" duration="6226000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="65580000" />
+    <option name="totallyTimeSpent" value="68932000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -304,7 +281,6 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/AppData/Local/Temp/Rar$DIa0.734/routes.php" />
     <entry file="file://$PROJECT_DIR$/public/errors/prod.php">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -555,13 +531,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/Main/index.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="612">
-          <caret line="76" column="24" lean-forward="true" selection-start-line="76" selection-start-column="24" selection-end-line="76" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/models/Product.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="340">
@@ -593,17 +562,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/public/js/main.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="12" column="68" selection-start-line="12" selection-start-column="68" selection-end-line="12" selection-end-column="68" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/templates/watches.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
           <caret line="241" column="2" selection-start-line="241" selection-start-column="2" selection-end-line="241" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/Main/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="71" column="69" lean-forward="true" selection-start-line="71" selection-start-column="69" selection-end-line="71" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/js/main.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="16" selection-start-line="20" selection-start-column="16" selection-end-line="20" selection-end-column="16" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/CartController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="21" column="13" selection-start-line="21" selection-start-column="13" selection-end-line="21" selection-end-column="13" />
         </state>
       </provider>
     </entry>

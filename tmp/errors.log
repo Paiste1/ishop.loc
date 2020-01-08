@@ -224,3 +224,61 @@
 =====================
 [2020-01-08 09:14:50] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-01-08 14:36:04] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:36:29] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:39:59] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:40:03] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:40:05] Текст ошибки: Контроллер app\controllers\CartController не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2020-01-08 14:40:08] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:40:41] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:40:41] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:44:06] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:44:06] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:45:04] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:45:04] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:50:16] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:50:32] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:54:13] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:54:17] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:54:17] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:54:25] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 14:59:27] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:00:00] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:03:23] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:03:26] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:03:41] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:03:41] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:07:29] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:09:38] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:09:50] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-08 15:09:51] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop.loc/app/views/Cart/add.php ! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка: 43
+=====================
+[2020-01-08 15:09:58] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
