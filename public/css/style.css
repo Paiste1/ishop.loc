@@ -3088,3 +3088,7 @@ ul.tag-men {
 .del-item {
 	cursor: pointer;
 }
+
+.top-string {
+	margin: 5px 0;
+}
