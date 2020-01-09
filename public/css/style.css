@@ -3070,25 +3070,23 @@ ul.tag-men {
 .product-one > .product-left {
 	margin-bottom: 20px;
 }
-
 .quantity {
 	margin-top: 32px;
 	margin-right: 10px;
 	float: left;
 }
-
 .quantity input {
-    padding: 6px;
+	padding: 6px;
 }
-
 #cart .table img{
 	height: 50px;
 }
-
 .del-item {
 	cursor: pointer;
 }
-
 .top-string {
 	margin: 5px 0;
+}
+.box1 {
+	display: none;
 }
