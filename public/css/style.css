@@ -3081,6 +3081,10 @@ ul.tag-men {
     padding: 6px;
 }
 
-#cart table img{
+#cart .table img{
 	height: 50px;
+}
+
+.del-item {
+	cursor: pointer;
 }
