@@ -16,6 +16,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
     <!--theme-style-->
     <link href="css/style.css" rel="stylesheet" type="text/css" media="all" />
     <!--//theme-style-->
+    <link rel="shortcut icon" href="images/favicon.ico" />
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 </head>
@@ -26,11 +27,11 @@ License URL: http://creativecommons.org/licenses/by/3.0/
         <div class="top-header-main">
             <div class="col-md-6 top-header-left">
                 <div class="drop top-string">
-                    <div class="box">
+                    <!--<div class="box">
                         <select id="currency" tabindex="4" class="dropdown drop">
-                            <?php new \app\widgets\currency\Currency();?>
+                            <?php /*new \app\widgets\currency\Currency();*/?>
                         </select>
-                    </div>
+                    </div>-->
                     <div class="box1">
                         <select tabindex="4" class="dropdown">
                             <option value="" class="label">English :</option>
@@ -48,18 +49,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
                         <div class="total">
                             <img src="images/cart-1.png" alt="" />
                             <?php if(!empty($_SESSION['cart'])): ?>
-                                <span class="simpleCart_total"><?=$_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] . $_SESSION['cart.currency']['symbol_right'];?></span>
+                                <span class="simpleCart_total"><?=$_SESSION['cart.currency']['symbol_left'] . number_format($_SESSION['cart.sum'], 2, ',', '') . $_SESSION['cart.currency']['symbol_right'];?></span>
                             <?php else: ?>
                                 <span class="simpleCart_total">Корзина пуста</span>
                             <?php endif;?>
                         </div>
                     </a>
-                    <!--<a href="checkout.html">
-                        <div class="total">
-                            <span class="simpleCart_total"></span></div>
-                        <img src="images/cart-1.png" alt="" />
-                    </a>
-                    <p><a href="javascript:;" class="simpleCart_empty">Empty Cart</a></p>-->
                     <div class="clearfix"> </div>
                 </div>
             </div>
@@ -89,8 +84,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
             </div>
             <div class="col-md-3 header-right">
                 <div class="search-bar">
-                    <input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
-                    <input type="submit" value="">
+                    <form action="search" method="get" autocomplete="off">
+                        <input type="text" class="typeahead" id="typeahead" name="s" placeholder="Поиск">
+                        <input type="submit" value="">
+                    </form>
+                    <!--<input type="text" value="Search" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Search';}">
+                    <input type="submit" value="">-->
                 </div>
             </div>
             <div class="clearfix"> </div>
@@ -100,7 +99,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--bottom-header-->
 
 <div class="content">
-    <?php debug($_SESSION);?>
+<!--    --><?php //debug($_SESSION);?>
     <?=$content;?>
 </div>
 
@@ -198,6 +197,7 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!--jQuery(necessary for Bootstrap's JavaScript plugins)-->
 <script src="js/jquery-1.11.0.min.js"></script>
 <script src="js/bootstrap.min.js"></script>
+<script src="js/typeahead.bundle.js"></script>
 <!--dropdown-->
 <script src="js/jquery.easydropdown.js"></script>
 <!--Slider-Starts-Here-->
