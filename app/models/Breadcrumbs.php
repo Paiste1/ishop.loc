@@ -6,7 +6,7 @@ use ishop\App;
 
 class Breadcrumbs
 {
-    public static function getBreadcrumbs($category_id, $name)
+    public static function getBreadcrumbs($category_id, $name = '')
     {
         $cats = App::$app->getProperty('cats');
         $breadcrumbs_array = self::getParts($cats, $category_id);
