@@ -498,3 +498,9 @@
 =====================
 [2020-01-14 09:04:21] Текст ошибки: Plugin 'cout' does not exist, add this plugin using: R::ext('cout') | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Facade.php | Строка: 3129
 =====================
+[2020-01-14 13:04:03] Текст ошибки: Контроллер app\controllers\UserController не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 44
+=====================
+[2020-01-14 13:04:04] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-14 15:32:08] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
