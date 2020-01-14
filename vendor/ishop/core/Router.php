@@ -52,7 +52,7 @@ class Router
     {
         foreach (self::$routes as $pattern => $route)
         {
-            if(preg_match("#{$pattern}#", $url, $matches))
+            if(preg_match("#{$pattern}#i", $url, $matches))
             {
                 foreach ($matches as $k => $v)
                 {

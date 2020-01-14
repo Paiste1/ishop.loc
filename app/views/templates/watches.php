@@ -7,7 +7,12 @@ License URL: http://creativecommons.org/licenses/by/3.0/
 <!DOCTYPE html>
 <html>
 <head>
-    <base href="/">
+    <?php if($_SERVER['HTTP_HOST'] == 'ishop.master'){
+        echo '<base href="/public/">';
+    } else {
+        echo '<base href="/">';
+    }
+    ;?>
     <?=$this->getMeta();?>
     <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all" />
     <link href="megamenu/css/ionicons.min.css" rel="stylesheet" type="text/css" media="all" />

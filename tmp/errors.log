@@ -480,3 +480,13 @@
 =====================
 [2020-01-12 12:46:52] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-01-14 05:16:17] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-14 05:19:45] Текст ошибки: syntax error, unexpected '}' | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\CategoryController.php | Строка: 17
+=====================
+[2020-01-14 05:19:53] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop.loc/app/views/Category/view.php ! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка: 43
+=====================
+[2020-01-14 05:31:45] Текст ошибки: Class 'app\controllers\App' not found | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\CategoryController.php | Строка: 25
+=====================
+[2020-01-14 05:42:19] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop.loc/app/views/Category/view.php ! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка: 43
+=====================
