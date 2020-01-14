@@ -504,3 +504,15 @@
 =====================
 [2020-01-14 15:32:08] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-01-14 16:08:29] Текст ошибки: Invalid type:  | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Util\DispenseHelper.php | Строка: 77
+=====================
+[2020-01-14 16:09:39] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'login' doesn't have a default value | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-14 16:10:17] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'login' doesn't have a default value | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-14 16:16:12] Текст ошибки: SQLSTATE[HY000]: General error: 1364 Field 'login' doesn't have a default value | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-14 16:24:14] Текст ошибки: SQLSTATE[23000]: Integrity constraint violation: 1062 Duplicate entry 'AlexPaiste' for key 'login' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-14 16:24:14] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================

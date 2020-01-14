@@ -1,9 +1,9 @@
 <?php
 
-
 namespace ishop\base;
 
 use ishop\Db;
+use RedBeanPHP\R;
 use Valitron\Validator;
 
 abstract class Model
@@ -25,6 +25,14 @@ abstract class Model
         }
     }
 
+    public function save($table){
+        $tbl = R::dispense($table);
+        foreach($this->attributes as $name => $value){
+            $tbl->$name = $value;
+        }
+        return R::store($tbl);
+    }
+
     public function validate($data){
         Validator::langDir(WWW . '/validator/lang');
         Validator::lang('ru');
@@ -40,7 +48,7 @@ abstract class Model
     public function getErrors(){
         $errors = '<ul>';
         foreach($this->errors as $error){
-            foreach ($error as $item){
+            foreach($error as $item){
                 $errors .= "<li>$item</li>";
             }
         }
