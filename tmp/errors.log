@@ -516,3 +516,9 @@
 =====================
 [2020-01-14 16:24:14] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-01-15 08:02:36] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\ishop.loc\app\models\User.php | Строка: 34
+=====================
+[2020-01-15 08:02:36] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-15 08:35:29] Текст ошибки: syntax error, unexpected '<' | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\UserController.php | Строка: 42
+=====================
