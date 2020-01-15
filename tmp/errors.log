@@ -524,3 +524,25 @@
 =====================
 [2020-01-15 13:42:06] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-01-15 14:35:06] Текст ошибки: Call to undefined method ishop\App::getProperty() | Файл: C:\OSPanel\domains\ishop.loc\app\models\Order.php | Строка: 34
+=====================
+[2020-01-15 14:37:31] Текст ошибки: Class 'app\models\Swift_Mailer' not found | Файл: C:\OSPanel\domains\ishop.loc\app\models\Order.php | Строка: 39
+=====================
+[2020-01-15 14:37:56] Текст ошибки: Failed to authenticate on SMTP server with username "alpongn1@gmail.com" using 3 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u16sm8913993ljo.22 - gsmtp
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u16sm8913993ljo.22 - gsmtp
+". Authenticator XOAUTH2 returned Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials u16sm8913993ljo.22 - gsmtp
+". | Файл: C:\OSPanel\domains\ishop.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 191
+=====================
+[2020-01-15 14:39:55] Текст ошибки: Метод app\controllers\CartController::indexAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-01-15 14:40:10] Текст ошибки: Failed to authenticate on SMTP server with username "alpongn1@gmail.com" using 3 possible authenticators. Authenticator LOGIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a15sm9024731ljn.50 - gsmtp
+". Authenticator PLAIN returned Expected response code 235 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a15sm9024731ljn.50 - gsmtp
+". Authenticator XOAUTH2 returned Expected response code 250 but got code "535", with message "535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials a15sm9024731ljn.50 - gsmtp
+". | Файл: C:\OSPanel\domains\ishop.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 191
+=====================
