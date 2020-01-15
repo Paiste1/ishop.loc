@@ -3078,7 +3078,8 @@ ul.tag-men {
 .quantity input {
 	padding: 6px;
 }
-#cart .table img{
+#cart .table img,
+.cart table img{
 	height: 50px;
 }
 .del-item {
