@@ -71,15 +71,15 @@ class CartController extends AppController
                     $user->getErrors();
                     $_SESSION['form_data'] = $data;
                     redirect();
-                } else {
+                }else{
                     $user->attributes['password'] = password_hash($user->attributes['password'], PASSWORD_DEFAULT);
                     if(!$user_id = $user->save('user')){
                         $_SESSION['error'] = 'Ошибка!';
                         redirect();
                     }
                 }
-                redirect();
             }
+
             // сохранение заказа
             $data['user_id'] = isset($user_id) ? $user_id : $_SESSION['user']['id'];
             $data['note'] = !empty($_POST['note']) ? $_POST['note'] : '';
