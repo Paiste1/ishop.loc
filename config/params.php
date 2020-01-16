@@ -2,8 +2,8 @@
 
 return [
     'admin_email' => 'alexpaiste.ap@gmail.com', // будет приходить информация о заказах
-    'shop_name' => 'Магазин Ishop.loc',
-    'pagination' => 3,
+    'shop_name' => 'Магазин Ishop.loc', // название магазина
+    'pagination' => 3, // сколько товаров будет показано на странице
     'smtp_host' => 'smtp.gmail.com',
     'smtp_port' => '465',
     'smtp_protocol' => 'ssl',

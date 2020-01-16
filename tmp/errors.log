@@ -546,3 +546,5 @@
 535 5.7.8  https://support.google.com/mail/?p=BadCredentials a15sm9024731ljn.50 - gsmtp
 ". | Файл: C:\OSPanel\domains\ishop.loc\vendor\swiftmailer\swiftmailer\lib\classes\Swift\Transport\Esmtp\AuthHandler.php | Строка: 191
 =====================
+[2020-01-16 12:54:16] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
