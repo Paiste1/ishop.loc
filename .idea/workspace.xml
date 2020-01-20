@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="43b42877-7f03-4cbe-9270-dd7f003036f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/app/controllers/admin/AppController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/controllers/admin/MainController.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/admin/Main/index.php" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/templates/admin.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/controllers/CategoryController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/CategoryController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/widgets/filter/Filter.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/widgets/filter/Filter.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/d8f64461fa85104a39f2162f647f08aa.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -59,12 +60,6 @@
         <option value="JavaScript File" />
       </list>
     </option>
-  </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>$_SERVER</find>
-      <find>navigation</find>
-    </findStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -159,7 +154,8 @@
       <workItem from="1579094177054" duration="313000" />
       <workItem from="1579144376627" duration="12586000" />
       <workItem from="1579178995667" duration="1157000" />
-      <workItem from="1579234000058" duration="1934000" />
+      <workItem from="1579234000058" duration="2538000" />
+      <workItem from="1579498240195" duration="3795000" />
     </task>
     <servers />
   </component>
