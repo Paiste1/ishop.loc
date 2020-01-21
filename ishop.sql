@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 16 2020 г., 15:50
+-- Время создания: Янв 21 2020 г., 17:52
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.2.0
 
@@ -258,7 +258,7 @@ INSERT INTO `modification` (`id`, `product_id`, `title`, `price`) VALUES
 CREATE TABLE `order` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(10) UNSIGNED NOT NULL,
-  `status` enum('0','1') NOT NULL DEFAULT '0',
+  `status` int(10) NOT NULL DEFAULT '0',
   `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
   `update_at` timestamp NULL DEFAULT NULL COMMENT 'дата обработки',
   `currency` varchar(10) NOT NULL COMMENT 'валюта',
@@ -270,10 +270,11 @@ CREATE TABLE `order` (
 --
 
 INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
-(9, 2, '0', '2020-01-15 11:42:53', NULL, 'RUB', 'test'),
-(10, 2, '0', '2020-01-15 12:51:07', NULL, 'RUB', '431'),
-(11, 5, '0', '2020-01-15 13:01:47', NULL, 'RUB', 'хуй'),
-(12, 2, '0', '2020-01-15 13:20:44', NULL, 'RUB', '13');
+(9, 2, 2, '2020-01-15 11:42:53', NULL, 'RUB', 'test'),
+(10, 2, 2, '2020-01-15 12:51:07', NULL, 'RUB', '431'),
+(11, 5, 1, '2020-01-15 13:01:47', '2020-01-21 06:15:05', 'RUB', 'Сашка барабашка'),
+(12, 2, 2, '2020-01-15 13:20:44', NULL, 'RUB', '13'),
+(13, 2, 0, '2020-01-21 06:31:51', '2020-01-21 06:14:05', 'RUB', 'test');
 
 -- --------------------------------------------------------
 
@@ -304,7 +305,10 @@ INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `pr
 (31, 10, 7, 1, 'Q&Q Q956J302Y', 20),
 (32, 10, 8, 1, 'Royal London 41040-01', 90),
 (33, 11, 2, 1, 'Casio MQ-24-7BUL', 70),
-(34, 12, 2, 1, 'Casio MQ-24-7BUL', 70);
+(34, 12, 2, 1, 'Casio MQ-24-7BUL', 70),
+(35, 13, 1, 1, 'Casio MRP-700-1AVEF', 300),
+(36, 13, 3, 1, 'Casio GA-1000-1AER', 400),
+(37, 13, 2, 2, 'Casio MQ-24-7BUL (Silver)', 80);
 
 -- --------------------------------------------------------
 
@@ -400,6 +404,7 @@ CREATE TABLE `user` (
   `login` varchar(255) NOT NULL,
   `password` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
+  `phone` varchar(20) NOT NULL COMMENT 'телефон',
   `name` varchar(255) NOT NULL,
   `address` varchar(255) NOT NULL,
   `role` enum('user','admin') NOT NULL DEFAULT 'user' COMMENT 'роль пользователя'
@@ -409,11 +414,13 @@ CREATE TABLE `user` (
 -- Дамп данных таблицы `user`
 --
 
-INSERT INTO `user` (`id`, `login`, `password`, `email`, `name`, `address`, `role`) VALUES
-(2, 'alex_13.91', '$2y$10$WuUzEMp79Wx9SpXzD1fX3uqFvd6YDdUQ3S.KxVP4y/8Gry4j/lBaW', 'alex_13.91@mail.ru', '123123', '123', 'user'),
-(3, 'user5', '$2y$10$Xw3xlrQKkdxsymmYn3l3TuHtIu.dCkr44FWzv1fBHXSMLdfYC/Dga', '5@1.ru', 'user5', '555', 'user'),
-(4, 'user1', '$2y$10$bAfohT7QbsMHiD6QI1wPG.CLA7SpPlVlhbIpBqzTjjYzC4YSC71WO', '1@1.ru', 'admin', '123', 'user'),
-(5, 'heysmileyourself@mail.ru', '$2y$10$LBf6kcW0qeigXkjukqZWfO76wYoyHlNPIsEAV5Fi1Jktnz29Ofjx.', 'heysmileyourself@mail.ru', 'Alexa', 'Маршала Жукова 11 в Иркутск', 'user');
+INSERT INTO `user` (`id`, `login`, `password`, `email`, `phone`, `name`, `address`, `role`) VALUES
+(2, 'alex_13.91', '$2y$10$WuUzEMp79Wx9SpXzD1fX3uqFvd6YDdUQ3S.KxVP4y/8Gry4j/lBaW', 'alex_13.91@mail.ru', '+7 (924) 837-1833', 'Алексей', '123', 'user'),
+(3, 'user5', '$2y$10$Xw3xlrQKkdxsymmYn3l3TuHtIu.dCkr44FWzv1fBHXSMLdfYC/Dga', '5@1.ru', '+7 (924) 837-1833', 'user5', '555', 'user'),
+(4, 'user1', '$2y$10$bAfohT7QbsMHiD6QI1wPG.CLA7SpPlVlhbIpBqzTjjYzC4YSC71WO', '1@1.ru', '', 'admin', '123', 'user'),
+(5, 'heysmileyourself@mail.ru', '$2y$10$LBf6kcW0qeigXkjukqZWfO76wYoyHlNPIsEAV5Fi1Jktnz29Ofjx.', 'heysmileyourself@mail.ru', '+7 (950) 096-5795', 'Alexa', 'Маршала Жукова 11 в Иркутск', 'user'),
+(6, 'paiste', '$2y$10$5eQux0kPKKVGHHe8thXm1eTYG87a5KuQaLbANRYJr/a2755VoenM.', 'alexpaiste.ap@gmail.com', '', 'Алёшенька', 'Russia', 'admin'),
+(7, 'user11', '$2y$10$7YWZzQLsSjE7ri0I8t5ImOZFUWhhIaR1mht7bWiJKKSvIS9gbSZqm', '11@1.ru', '+7 (924) 837-1833', '123', '123', 'user');
 
 --
 -- Индексы сохранённых таблиц
@@ -557,13 +564,13 @@ ALTER TABLE `modification`
 -- AUTO_INCREMENT для таблицы `order`
 --
 ALTER TABLE `order`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=13;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
 
 --
 -- AUTO_INCREMENT для таблицы `order_product`
 --
 ALTER TABLE `order_product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=35;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
 
 --
 -- AUTO_INCREMENT для таблицы `product`
@@ -575,7 +582,7 @@ ALTER TABLE `product`
 -- AUTO_INCREMENT для таблицы `user`
 --
 ALTER TABLE `user`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=8;
 
 --
 -- Ограничения внешнего ключа сохраненных таблиц
