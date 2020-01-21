@@ -482,3 +482,7 @@
 =====================
 [2020-01-21 07:00:22] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\ishop.loc\app\views\templates\admin.php | Строка: 597
 =====================
+[2020-01-21 07:46:16] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.users' doesn't exist | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 07:46:21] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.users' doesn't exist | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
