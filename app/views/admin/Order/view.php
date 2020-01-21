@@ -15,7 +15,6 @@
         <li class="active">Заказ № <?=$order['id'];?></li>
     </ol>
 </section>
-
 <!-- Main content -->
 <section class="content">
     <!-- Small boxes (Stat box) -->
@@ -35,6 +34,14 @@
                                     <td><?=$order['name'];?></td>
                                 </tr>
                                 <tr>
+                                    <td><b>Email заказчика</b></td>
+                                    <td><?=$order['email'];?></td>
+                                </tr>
+                                <tr>
+                                    <td><b>Телефон</b></td>
+                                    <td><?=$order['phone'];?></td>
+                                </tr>
+                                <tr>
                                     <td><b>Дата заказа</b></td>
                                     <td><?=$order['date'];?></td>
                                 </tr>
@@ -48,7 +55,7 @@
                                 </tr>
                                 <tr>
                                     <td><b>Сумма заказа</b></td>
-                                    <td><?=$order['sum'];?> <?=$order['currency'];?></td>
+                                    <td><b><?=$order['sum'];?></b> <?=$order['currency'];?></td>
                                 </tr>
                                 <tr>
                                     <td><b>Статус</b></td>

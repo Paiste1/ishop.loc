@@ -314,7 +314,7 @@
             <ul class="sidebar-menu" data-widget="tree">
                 <li class="header">Меню</li>
                 <!-- Optionally, you can add icons to the links -->
-                <li><a href="<?= ADMIN ?>/"><i class="fa fa-home"></i> <span>Home</span></a></li>
+                <li><a href="<?= ADMIN ?>/"><i class="fa fa-home"></i> <span>Главная</span></a></li>
                 <li><a href="<?= ADMIN ?>/order"><i class="fa fa-shopping-cart"></i> <span>Заказы</span></a></li>
                 <li class="treeview">
                     <a href="#"><i class="fa fa-navicon"></i> <span>Категории</span>

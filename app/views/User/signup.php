@@ -45,6 +45,11 @@
                                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
                                 </div>
                                 <div class="form-group has-feedback">
+                                    <label for="phone">Телефон</label>
+                                    <input type="phone" name="phone" class="form-control" id="phone" placeholder="Телефон" value="<?=isset($_SESSION['form-data']['phone']) ? h($_SESSION['form-data']['phone']) : '';?>" required>
+                                    <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+                                </div>
+                                <div class="form-group has-feedback">
                                     <label for="address">Адрес</label>
                                     <input type="text" name="address" class="form-control" id="address" placeholder="Адрес" value="<?=isset($_SESSION['form-data']['address']) ? h($_SESSION['form-data']['address']) : '';?>" required>
                                     <span class="glyphicon form-control-feedback" aria-hidden="true"></span>

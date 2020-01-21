@@ -562,3 +562,37 @@
 =====================
 [2020-01-21 11:34:58] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
 =====================
+[2020-01-21 13:13:35] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 13:13:36] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 13:22:30] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 13:22:30] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 13:22:31] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 13:22:31] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 13:22:31] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 13:22:31] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 13:22:31] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 14:06:39] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 14:36:54] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'user.phone' in 'field list' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 15:00:59] Текст ошибки: SQLSTATE[22001]: String data, right truncated: 1406 Data too long for column 'phone' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 15:00:59] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 15:08:15] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 15:14:02] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 15:19:17] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 15:20:13] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(SUM(`order_product`.`price`), 2) AS `sum` FROM `order` JOIN `user` ON `order`.`' at line 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
