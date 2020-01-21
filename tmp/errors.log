@@ -486,3 +486,79 @@
 =====================
 [2020-01-21 07:46:21] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.users' doesn't exist | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
 =====================
+[2020-01-21 09:31:51] Текст ошибки: syntax error, unexpected '?>' | Файл: C:\OSPanel\domains\ishop.loc\app\views\mail\mail_order.php | Строка: 31
+=====================
+[2020-01-21 09:32:41] Текст ошибки: syntax error, unexpected '?>' | Файл: C:\OSPanel\domains\ishop.loc\app\views\mail\mail_order.php | Строка: 31
+=====================
+[2020-01-21 09:32:45] Текст ошибки: syntax error, unexpected '?>' | Файл: C:\OSPanel\domains\ishop.loc\app\views\mail\mail_order.php | Строка: 31
+=====================
+[2020-01-21 09:42:52] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-01-21 09:50:52] Текст ошибки: Call to undefined function id() | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\libs\functions.php | Строка: 5
+=====================
+[2020-01-21 09:50:53] Текст ошибки: Call to undefined function id() | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\libs\functions.php | Строка: 5
+=====================
+[2020-01-21 09:50:55] Текст ошибки: Call to undefined function id() | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\libs\functions.php | Строка: 5
+=====================
+[2020-01-21 10:36:11] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 10:54:55] Текст ошибки: Метод app\controllers\admin\OrderController::changeAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-01-21 10:57:45] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 11:12:18] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\OrderController.php | Строка: 40
+=====================
+[2020-01-21 11:12:18] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 11:16:04] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:16:04] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 11:16:30] Текст ошибки: syntax error, unexpected 'if' (T_IF) | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\OrderController.php | Строка: 39
+=====================
+[2020-01-21 11:17:57] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:18:12] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:18:12] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:18:22] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:18:44] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:01] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:02] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:02] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:02] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:02] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:02] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:03] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:03] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:03] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:03] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:19:44] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:22:06] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 11:22:38] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 11:24:47] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:24:47] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-21 11:25:22] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\OrderController.php | Строка: 40
+=====================
+[2020-01-21 11:25:31] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-21 11:34:58] Текст ошибки: SQLSTATE[01000]: Warning: 1265 Data truncated for column 'status' at row 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================

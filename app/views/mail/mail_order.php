@@ -26,9 +26,9 @@
             <td style="padding: 8px; border: 1px solid #ddd;"><?=$item['price'] ?></td>
             <td style="padding: 8px; border: 1px solid #ddd;"><?=$item['price'] * $item['qty'] ?></td>
         </tr>
-    <!--<?//php endforeach;?>
-        <tr>Комментарий к заказу:
-            <p><?=//$data['note'];?></p>
+    <?php endforeach;?>
+        <!--<tr>Комментарий к заказу:
+            <p><?//=$data['note'];?></p>
         </tr>
     <tr>-->
         <td colspan="3" style="padding: 8px; border: 1px solid #ddd;">Итого:</td>
