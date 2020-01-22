@@ -596,3 +596,5 @@
 =====================
 [2020-01-21 15:20:13] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(SUM(`order_product`.`price`), 2) AS `sum` FROM `order` JOIN `user` ON `order`.`' at line 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
 =====================
+[2020-01-22 11:30:44] Текст ошибки: Контроллер app\controllers\admin\CategoryController не найден! | Файл: C:\OSPanel\domains\ishop.master\vendor\ishop\core\Router.php | Строка: 44
+=====================
