@@ -1,8 +1,6 @@
 <?php
 
-
 namespace app\widgets\menu;
-
 
 use ishop\App;
 use ishop\Cache;

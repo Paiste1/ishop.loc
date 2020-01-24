@@ -28,6 +28,20 @@
         <!-- ./col -->
         <div class="col-lg-3 col-xs-6">
             <!-- small box -->
+            <div class="small-box bg-red">
+                <div class="inner">
+                    <h3><?=$countCategories;?></h3>
+                    <p>Категории</p>
+                </div>
+                <div class="icon">
+                    <i class="ion ion-pie-graph"></i>
+                </div>
+                <a href="<?=ADMIN;?>/category" class="small-box-footer">Все категории <i class="fa fa-arrow-circle-right"></i></a>
+            </div>
+        </div>
+        <!-- ./col -->
+        <div class="col-lg-3 col-xs-6">
+            <!-- small box -->
             <div class="small-box bg-green">
                 <div class="inner">
                     <h3><?=$countProducts;?></h3>
@@ -51,20 +65,6 @@
                     <i class="ion ion-person-add"></i>
                 </div>
                 <a href="<?=ADMIN;?>/user" class="small-box-footer">Все пользователи <i class="fa fa-arrow-circle-right"></i></a>
-            </div>
-        </div>
-        <!-- ./col -->
-        <div class="col-lg-3 col-xs-6">
-            <!-- small box -->
-            <div class="small-box bg-red">
-                <div class="inner">
-                    <h3><?=$countCategories;?></h3>
-                    <p>Категории</p>
-                </div>
-                <div class="icon">
-                    <i class="ion ion-pie-graph"></i>
-                </div>
-                <a href="<?=ADMIN;?>/category" class="small-box-footer">Все категории <i class="fa fa-arrow-circle-right"></i></a>
             </div>
         </div>
         <!-- ./col -->

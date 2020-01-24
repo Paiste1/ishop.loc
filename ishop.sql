@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Янв 21 2020 г., 17:52
+-- Время создания: Янв 24 2020 г., 11:38
 -- Версия сервера: 5.7.20
 -- Версия PHP: 7.2.0
 
@@ -176,7 +176,9 @@ INSERT INTO `category` (`id`, `title`, `alias`, `parent_id`, `keywords`, `descri
 (11, 'Электронные', 'elektronnye-11', 2, 'Электронные', 'Электронные'),
 (12, 'Механические', 'mehanicheskie-12', 2, 'Механические', 'Механические'),
 (13, 'Adriatica', 'adriatica', 11, 'Adriatica', 'Adriatica'),
-(14, 'Anne Klein', 'anne-klein', 12, 'Anne Klein', 'Anne Klein');
+(14, 'Test', 'test', 0, 'test', 'test1'),
+(15, 'Test1', 'test1', 3, '', ''),
+(16, 'Test 2', 'test-2', 15, 'ddd', 'fff');
 
 -- --------------------------------------------------------
 
@@ -540,7 +542,7 @@ ALTER TABLE `brand`
 -- AUTO_INCREMENT для таблицы `category`
 --
 ALTER TABLE `category`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=15;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=17;
 
 --
 -- AUTO_INCREMENT для таблицы `currency`
