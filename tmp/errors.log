@@ -624,3 +624,8 @@
 =====================
 [2020-01-29 05:05:49] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-01-29 08:13:49] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '(SUM(`order_product`.`price`), 2) 
+        AS `sum` FROM `order` JOIN `order_pr' at line 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-01-29 08:13:49] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
