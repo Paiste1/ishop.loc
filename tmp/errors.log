@@ -629,3 +629,5 @@
 =====================
 [2020-01-29 08:13:49] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-01-29 09:36:30] Текст ошибки: Метод app\controllers\admin\UserController::addAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================

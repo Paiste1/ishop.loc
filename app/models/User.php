@@ -13,6 +13,7 @@ class User extends AppModel
         'email' => '',
         'phone' => '',
         'address' => '',
+        'role' => 'user',
     ];
 
     public $rules = [
