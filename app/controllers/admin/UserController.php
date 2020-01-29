@@ -23,6 +23,10 @@ class UserController extends AppController
         $this->template = 'login';
     }
 
+    public function addAction(){
+        $this->setMeta('Новый пользователь');
+    }
+
     public function editAction(){
         if(!empty($_POST)){
             $id = $this->getRequestID(false);
@@ -60,7 +64,7 @@ class UserController extends AppController
 
     public function indexAction(){
         $page = isset($_GET['page']) ? (int)$_GET['page'] : 1;
-        $perpage = 3;
+        $perpage = 20;
         $count = R::count('user');
         $pagination = new Pagination($page, $perpage, $count);
         $start = $pagination->getStart();
