@@ -622,3 +622,5 @@
 =====================
 [2020-01-24 11:11:33] Текст ошибки: Контроллер app\controllers\admin\ProductController не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 44
 =====================
+[2020-01-29 05:05:49] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
