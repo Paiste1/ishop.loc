@@ -21,8 +21,8 @@
                             <thead>
                             <tr>
                                 <th>ID</th>
-                                <th>Категория</th>
                                 <th>Наименование</th>
+                                <th>Категория</th>
                                 <th>Цена</th>
                                 <th>Статус</th>
                                 <th>Действие</th>
@@ -32,8 +32,8 @@
                             <?php foreach($products as $product): ?>
                                 <tr>
                                     <td><?=$product['id'];?></td>
-                                    <td><?=$product['cat'];?></td>
                                     <td><?=$product['title'];?></td>
+                                    <td><?=$product['cat'];?></td>
                                     <td><?=$product['price'];?></td>
                                     <td><?=$product['status'] ? 'On' : 'Off';?></td>
                                     <td><a href="<?=ADMIN;?>/product/edit?id=<?=$product['id'];?>"><i class="fa fa-fw fa-eye"></i></a> <a class="delete" href="<?=ADMIN;?>/product/delete?id=<?=$product['id'];?>"><i class="fa fa-fw fa-close text-danger"></i></a></td>
