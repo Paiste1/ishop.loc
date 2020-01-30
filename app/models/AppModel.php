@@ -5,14 +5,14 @@ namespace app\models;
 use ishop\base\Model;
 use RedBeanPHP\R;
 
-class AppModel extends Model
-{
+class AppModel extends Model{
+
     public static function createAlias($table, $field, $str, $id){
         $str = self::str2url($str);
         $res = R::findOne($table, "$field = ?", [$str]);
         if($res){
             $str = "{$str}-{$id}";
-            $res = R::count($table,"$field = ?", [$str]);
+            $res = R::count($table, "$field = ?", [$str]);
             if($res){
                 $str = self::createAlias($table, $field, $str, $id);
             }
@@ -20,66 +20,72 @@ class AppModel extends Model
         return $str;
     }
 
-    public static function str2url($str){
-        //переводим в транслит
+    public static function str2url($str) {
+        // переводим в транслит
         $str = self::rus2translit($str);
-        //в нижний регистр
+        // в нижний регистр
         $str = strtolower($str);
-        //заменяем все ненежное в "-"
+        // заменям все ненужное нам на "-"
         $str = preg_replace('~[^-a-z0-9_]+~u', '-', $str);
-        //удаляем начальные и конечные "-"
+        // удаляем начальные и конечные '-'
         $str = trim($str, "-");
         return $str;
     }
 
-    public static function rus2translit($string)
-    {
+    public static function rus2translit($string) {
+
         $converter = array(
-            'а' => 'a', 'б' => 'b', 'в' => 'v',
 
-            'г' => 'g', 'д' => 'd', 'е' => 'e',
+            'а' => 'a',   'б' => 'b',   'в' => 'v',
 
-            'ё' => 'e', 'ж' => 'zh', 'з' => 'z',
+            'г' => 'g',   'д' => 'd',   'е' => 'e',
 
-            'и' => 'i', 'й' => 'y', 'к' => 'k',
+            'ё' => 'e',   'ж' => 'zh',  'з' => 'z',
 
-            'л' => 'l', 'м' => 'm', 'н' => 'n',
+            'и' => 'i',   'й' => 'y',   'к' => 'k',
 
-            'о' => 'o', 'п' => 'p', 'р' => 'r',
+            'л' => 'l',   'м' => 'm',   'н' => 'n',
 
-            'с' => 's', 'т' => 't', 'у' => 'u',
+            'о' => 'o',   'п' => 'p',   'р' => 'r',
 
-            'ф' => 'f', 'х' => 'h', 'ц' => 'c',
+            'с' => 's',   'т' => 't',   'у' => 'u',
 
-            'ч' => 'ch', 'ш' => 'sh', 'щ' => 'sch',
+            'ф' => 'f',   'х' => 'h',   'ц' => 'c',
 
-            'ь' => '\'', 'ы' => 'y', 'ъ' => '\'',
+            'ч' => 'ch',  'ш' => 'sh',  'щ' => 'sch',
 
-            'э' => 'e', 'ю' => 'yu', 'я' => 'ya',
+            'ь' => '\'',  'ы' => 'y',   'ъ' => '\'',
+
+            'э' => 'e',   'ю' => 'yu',  'я' => 'ya',
 
 
-            'А' => 'A', 'Б' => 'B', 'В' => 'V',
 
-            'Г' => 'G', 'Д' => 'D', 'Е' => 'E',
+            'А' => 'A',   'Б' => 'B',   'В' => 'V',
 
-            'Ё' => 'E', 'Ж' => 'Zh', 'З' => 'Z',
+            'Г' => 'G',   'Д' => 'D',   'Е' => 'E',
 
-            'И' => 'I', 'Й' => 'Y', 'К' => 'K',
+            'Ё' => 'E',   'Ж' => 'Zh',  'З' => 'Z',
 
-            'Л' => 'L', 'М' => 'M', 'Н' => 'N',
+            'И' => 'I',   'Й' => 'Y',   'К' => 'K',
 
-            'О' => 'O', 'П' => 'P', 'Р' => 'R',
+            'Л' => 'L',   'М' => 'M',   'Н' => 'N',
 
-            'С' => 'S', 'Т' => 'T', 'У' => 'U',
+            'О' => 'O',   'П' => 'P',   'Р' => 'R',
 
-            'Ф' => 'F', 'Х' => 'H', 'Ц' => 'C',
+            'С' => 'S',   'Т' => 'T',   'У' => 'U',
 
-            'Ч' => 'Ch', 'Ш' => 'Sh', 'Щ' => 'Sch',
+            'Ф' => 'F',   'Х' => 'H',   'Ц' => 'C',
 
-            'Ь' => '\'', 'Ы' => 'Y', 'Ъ' => '\'',
+            'Ч' => 'Ch',  'Ш' => 'Sh',  'Щ' => 'Sch',
 
-            'Э' => 'E', 'Ю' => 'Yu', 'Я' => 'Ya',
+            'Ь' => '\'',  'Ы' => 'Y',   'Ъ' => '\'',
+
+            'Э' => 'E',   'Ю' => 'Yu',  'Я' => 'Ya',
+
         );
+
         return strtr($string, $converter);
+
     }
+
 }

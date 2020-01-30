@@ -4,8 +4,8 @@ namespace app\models\admin;
 
 use app\models\AppModel;
 
-class Product extends AppModel
-{
+class Product extends AppModel {
+
     public $attributes = [
         'title' => '',
         'category_id' => '',
@@ -22,11 +22,12 @@ class Product extends AppModel
     public $rules = [
         'required' => [
             ['title'],
-            ['price'],
             ['category_id'],
+            ['price'],
         ],
         'integer' => [
             ['category_id'],
-        ]
+        ],
     ];
+
 }
