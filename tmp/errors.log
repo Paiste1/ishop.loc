@@ -789,3 +789,19 @@
 =====================
 [2020-01-30 14:42:07] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-01-31 05:32:24] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-31 05:58:42] Текст ошибки: Too few arguments to function app\widgets\filter\Filter::__construct(), 0 passed in C:\OSPanel\domains\ishop.loc\app\views\Category\view.php on line 55 and exactly 2 expected | Файл: C:\OSPanel\domains\ishop.loc\app\widgets\filter\Filter.php | Строка: 15
+=====================
+[2020-01-31 05:58:42] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-31 05:58:42] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-31 05:58:42] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-31 05:58:42] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-01-31 06:18:48] Текст ошибки: syntax error, unexpected '$b' (T_VARIABLE), expecting ',' or ';' | Файл: C:\OSPanel\domains\ishop.loc\app\views\admin\Product\add.php | Строка: 84
+=====================
+[2020-01-31 06:18:48] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
