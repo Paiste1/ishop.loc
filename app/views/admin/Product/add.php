@@ -94,9 +94,7 @@
                                     <div class="box-body">
                                         <div id="single" class="btn btn-success" data-url="product/add-image" data-name="single">Выбрать файл</div>
                                         <p><small>Рекомендуемые размеры: 125х200</small></p>
-                                        <div class="single">
-
-                                        </div>
+                                        <div class="single"></div>
                                     </div>
                                     <div class="overlay">
                                         <i class="fa fa-refresh fa-spin"></i>
@@ -111,9 +109,7 @@
                                     <div class="box-body">
                                         <div id="multi" class="btn btn-success" data-url="product/add-image" data-name="multi">Выбрать файл</div>
                                         <p><small>Рекомендуемые размеры: 700х1000</small></p>
-                                        <div class="single">
-
-                                        </div>
+                                        <div class="multi"></div>
                                     </div>
                                     <div class="overlay">
                                         <i class="fa fa-refresh fa-spin"></i>
