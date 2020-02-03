@@ -4,13 +4,7 @@
     <list default="true" id="43b42877-7f03-4cbe-9270-dd7f003036f5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/controllers/admin/ProductController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/admin/Product/add.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/admin/Product/add.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/views/templates/admin.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/views/templates/admin.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/adminLTE/my.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/adminLTE/my.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/adminLTE/my.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/adminLTE/my.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/filter/admin_filter_tpl.php" beforeDir="false" afterPath="$PROJECT_DIR$/public/filter/admin_filter_tpl.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/0832c1202da8d382318e329a7c133ea0.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/9297fd88a237b4c249515d1022b29f09.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/models/admin/Product.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/admin/Product.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/c799f92d1280fb7a5aefeba08b6fae16.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/cache/d8f64461fa85104a39f2162f647f08aa.txt" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/cache/d8f64461fa85104a39f2162f647f08aa.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/tmp/errors.log" beforeDir="false" afterPath="$PROJECT_DIR$/tmp/errors.log" afterDir="false" />
@@ -186,7 +180,7 @@
       <workItem from="1580377166046" duration="7063000" />
       <workItem from="1580437632235" duration="6872000" />
       <workItem from="1580658246179" duration="25000" />
-      <workItem from="1580698670817" duration="3238000" />
+      <workItem from="1580698670817" duration="5492000" />
     </task>
     <servers />
   </component>

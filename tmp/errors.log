@@ -823,3 +823,5 @@
 =====================
 [2020-02-03 06:50:45] Текст ошибки: SQLSTATE[HY093]: Invalid parameter number: no parameters were bound | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
 =====================
+[2020-02-03 07:26:34] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================

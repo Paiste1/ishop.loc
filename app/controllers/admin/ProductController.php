@@ -25,7 +25,7 @@ class ProductController extends AppController
         if(!empty($_POST)){
             $product = new Product();
             $data = $_POST;
-//            debug($data, 1);
+            //debug($data, 1);
             $product->load($data);
             $product->attributes['status'] = $product->attributes['status'] ? '1' : '0';
             $product->attributes['hit'] = $product->attributes['hit'] ? '1' : '0';
@@ -42,6 +42,7 @@ class ProductController extends AppController
                 $p->alias = $alias;
                 R::store($p);
                 $product->editFilter($id, $data);
+                $product->editRelatedProduct($id, $data);
                 $_SESSION['success'] = 'Товар успешно добавлен!';
             }
             redirect();
