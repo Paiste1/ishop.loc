@@ -56,7 +56,7 @@
                         </div>
 
                         <div class="form-group has-feedback">
-                            <label for="old_price">Цена</label>
+                            <label for="old_price">Старая цена</label>
                             <input type="text" name="old_price" class="form-control" id="description" placeholder="Старая цена" pattern="^[0-9.]{1,}$" value="<?php isset($_SESSION['form_data']['old_price']) ? h($_SESSION['form_data']['old_price']) : null; ?>" data-error="Допускаются цифры и десятичная точка">
                             <div class="help-block with-errors"></div>
                         </div>
@@ -76,6 +76,11 @@
                             <label>
                                 <input type="checkbox" name="hit"> Хит
                             </label>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="related">Связанные товары</label>
+                                <select name="related[]" class="form-control select2" id="related" multiple></select>
                         </div>
 
                          <?php new \app\widgets\filter\Filter(null, WWW . '/filter/admin_filter_tpl.php');?>
