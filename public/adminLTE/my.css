@@ -44,3 +44,7 @@
 .overlay{
     display: none;
 }
+
+.imaga{
+    cursor: pointer;
+}

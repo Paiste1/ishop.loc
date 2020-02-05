@@ -879,3 +879,33 @@
 =====================
 [2020-02-03 17:15:49] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-02-05 06:24:57] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-05 06:29:16] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:40] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:41] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:41] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:41] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:41] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:42] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:42] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:42] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:42] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:42] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:29:42] Текст ошибки: Too few arguments to function app\controllers\admin\ProductController::editAction(), 0 passed in C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php on line 38 and exactly 1 expected | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 87
+=====================
+[2020-02-05 06:30:09] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop.loc/app/views/admin\Product/edit.php ! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка: 43
+=====================
+[2020-02-05 06:51:10] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 35
+=====================
