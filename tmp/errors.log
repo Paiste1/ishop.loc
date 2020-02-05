@@ -909,3 +909,25 @@
 =====================
 [2020-02-05 06:51:10] Текст ошибки: syntax error, unexpected '->' (T_OBJECT_OPERATOR) | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 35
 =====================
+[2020-02-05 07:54:39] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: '$item' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-05 07:55:52] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: '$item' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-05 07:56:14] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: '$item' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-05 07:59:31] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: '$item' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-05 08:01:11] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: '3e9defa234a137e5cc95b314b5c3b2f1.jpg' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-05 08:01:29] Текст ошибки: SQLSTATE[22007]: Invalid datetime format: 1292 Truncated incorrect DOUBLE value: '3e9defa234a137e5cc95b314b5c3b2f1.jpg' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-05 08:08:56] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-02-05 08:08:56] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-05 08:12:24] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\ProductController.php | Строка: 107
+=====================
+[2020-02-05 09:37:38] Текст ошибки: Товар casio-mq-24-7bul не найден! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\ProductController.php | Строка: 19
+=====================
+[2020-02-05 09:37:38] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================

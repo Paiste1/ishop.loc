@@ -119,7 +119,7 @@
                                         <div class="multi">
                                             <?php  if(!empty($gallery)): ?>
                                                 <?php foreach ($gallery as $item): ?>
-                                                    <img class="del-item imaga" src="/images/<?=$item;?>" alt="" style="max-height: 150px;" data-id="<?=$product->id;?>" data-src="$item">
+                                                    <img src="/images/<?=$item;?>" alt="" style="max-height: 150px; cursor: pointer;" data-id="<?=$product->id;?>" data-src="<?=$item;?>" class="del-item imaga" >
                                                 <?php endforeach;?>
                                             <?php endif;?>
                                         </div>
