@@ -931,3 +931,9 @@
 =====================
 [2020-02-05 09:37:38] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
 =====================
+[2020-02-06 10:20:39] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-06 13:04:32] Текст ошибки: syntax error, unexpected 'endforeach' (T_ENDFOREACH), expecting end of file | Файл: C:\OSPanel\domains\ishop.loc\app\views\admin\Filter\attribute-group.php | Строка: 36
+=====================
+[2020-02-06 14:25:42] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.attribite_value' doesn't exist | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
