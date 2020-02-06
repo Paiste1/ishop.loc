@@ -937,3 +937,37 @@
 =====================
 [2020-02-06 14:25:42] Текст ошибки: SQLSTATE[42S02]: Base table or view not found: 1146 Table 'ishop.attribite_value' doesn't exist | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
 =====================
+[2020-02-06 15:11:05] Текст ошибки: Метод app\controllers\admin\FilterController::groupEditAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-02-06 15:51:20] Текст ошибки: Товар noviy-13 не найден! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\ProductController.php | Строка: 19
+=====================
+[2020-02-06 15:51:20] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-06 17:28:00] Текст ошибки: Метод app\controllers\admin\FilterController::attributeDeleteAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-02-06 17:57:23] Текст ошибки: Метод app\controllers\admin\FilterController::attributeDeleteAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-02-06 17:57:23] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-06 18:07:31] Текст ошибки: Метод app\controllers\admin\FilterController::groupEditAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-02-06 18:09:47] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-02-06 18:12:24] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-02-06 18:12:41] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-02-06 18:12:51] Текст ошибки: Метод app\controllers\admin\FilterController::attributeEditAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-02-06 18:12:57] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-02-06 18:14:50] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-02-06 18:14:53] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-02-06 18:14:54] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\AppController.php | Строка: 31
+=====================
+[2020-02-06 18:17:05] Текст ошибки: Метод app\controllers\admin\FilterController::groupEditAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-02-06 18:17:30] Текст ошибки: Class 'R' not found | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\FilterController.php | Строка: 58
+=====================

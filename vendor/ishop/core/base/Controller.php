@@ -37,9 +37,9 @@ abstract class Controller
 
     public function setMeta($title = '', $desc = '', $keywords = '')
     {
-        $this->meta['title'] = $title;
-        $this->meta['desc'] = $desc;
-        $this->meta['keywords'] = $keywords;
+        $this->meta['title'] = h($title);
+        $this->meta['desc'] = h($desc);
+        $this->meta['keywords'] = h($keywords);
     }
     public function isAjax() {
         return isset($_SERVER['HTTP_X_REQUESTED_WITH']) && $_SERVER['HTTP_X_REQUESTED_WITH'] === 'XMLHttpRequest';
