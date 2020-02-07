@@ -995,3 +995,9 @@
 =====================
 [2020-02-07 06:24:39] Текст ошибки: syntax error, unexpected '.', expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' | Файл: C:\OSPanel\domains\ishop.loc\app\controllers\admin\CurrencyController.php | Строка: 17
 =====================
+[2020-02-07 08:22:18] Текст ошибки: Метод app\controllers\UserController::ordersAction не найден! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 41
+=====================
+[2020-02-07 08:22:18] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-07 08:27:43] Текст ошибки: Не найден вид C:\OSPanel\domains\ishop.loc/app/views/User/orders.php ! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\base\View.php | Строка: 43
+=====================
