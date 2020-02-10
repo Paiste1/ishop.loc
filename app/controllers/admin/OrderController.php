@@ -13,26 +13,27 @@ class OrderController extends AppController
         $count = R::count('order');
         $pagination = new Pagination($page,$perpage,$count);
         $start = $pagination->getStart();
-
-        $orders = R::getAll("SELECT `order`.`id`, `order`.`user_id`, `order`.`status`, `order`.`date`, `order`.`update_at`, `order`.`currency`, `user`.`name`, ROUND(SUM(`order_product`.`price`), 2) 
-        AS `sum` FROM `order` JOIN `user` ON `order`.`user_id` = `user`.`id` JOIN `order_product` ON `order`.`id` = `order_product`.`order_id` GROUP BY `order`.`id` ORDER BY `order`.`status`, `order`.`id` 
+        $orders = R::getAll("SELECT `order`.`id`, `order`.`user_id`, `order`.`status`, `order`.`date`, `order`.`update_at`, `order`.`currency`, `order`.`sum`, `user`.`name` 
+        FROM `order` JOIN `user` ON `order`.`user_id` = `user`.`id` JOIN `order_product` ON `order`.`id` = `order_product`.`order_id` GROUP BY `order`.`id` ORDER BY `order`.`status`, `order`.`id` 
         LIMIT $start, $perpage");
+//        debug($orders,1);
         $this->setMeta('Список заказов');
         $this->set(compact('orders', 'pagination', 'count'));
     }
 
     public function viewAction(){
         $order_id = $this->getRequestID();
-        $order = R::getRow("SELECT `order`.*, `user`.`name`, `user`.`address`, `user`.`email`,`user`.`phone`, ROUND(SUM(`order_product`.`price`), 2) AS `sum` FROM `order` JOIN `user` ON `order`.`user_id` = `user`.`id` 
+        $order = R::getRow("SELECT `order`.*, `user`.`name`, `user`.`address`, `user`.`email`,`user`.`phone` FROM `order` JOIN `user` ON `order`.`user_id` = `user`.`id` 
         JOIN `order_product` ON `order`.`id` = `order_product`.`order_id` WHERE `order`.`id` = ?
         GROUP BY `order`.`id` ORDER BY `order`.`status`, `order`.`id` LIMIT 1", [$order_id]);
-        debug($order);
+//        debug($order,1);
         if(!$order){
             throw new \Exception('Страница не найдена!', 404);
         }
         $order_products = R::findAll('order_product', "order_id = ?", [$order_id]);
+        $link = R::findOne('product', 'id = ?', [$order_id]);
         $this->setMeta("Заказ № {$order_id}");
-        $this->set(compact('order', 'order_products'));
+        $this->set(compact('order', 'order_products', 'link'));
     }
 
     public function changeAction(){

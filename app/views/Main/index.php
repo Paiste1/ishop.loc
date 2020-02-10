@@ -50,7 +50,7 @@
                 <?php
                     $price = $hit['price'] / $curr['value'];
                     $price = number_format($price, 2, ',', '');
-                    $price_old = $hit['old_price'] / $curr['value'];
+                    @$price_old = $hit['old_price'] / $curr['value'];
                     $price_old = number_format($price_old, 2, ',', '');
                 ?>
                 <div class="col-md-3 product-left">
@@ -62,7 +62,7 @@
                             <h4>
                                 <a data-id="<?=$hit['id']?>" class="add-to-cart-link" href="cart/add?id=<?=$hit['id']?>"><i></i></a> <span class=" item_price"><?=$curr['symbol_left'];?><?=$price;?><?=$curr['symbol_right'];?></span>
                                 <?php if($hit['old_price']): ?>
-                                    <small><del><?=$curr['symbol_left'];?><?=$price_old;?><?=$curr['symbol_right'];?></del></small>
+                                    <small><del><?=$curr['symbol_left'];?><?=@$price_old;?><?=$curr['symbol_right'];?></del></small>
                                 <?php endif; ?>
                             </h4>
                         </div>

@@ -81,15 +81,17 @@
                                     <th>Наименование</th>
                                     <th>Кол-во</th>
                                     <th>Цена</th>
+                                    <th>Ссылка</th>
                                 </tr>
                             </thead>
                             <tbody>
                                 <?php $qty = 0; foreach($order_products as $product): ?>
                                     <tr>
                                         <td><?=$product->id;?></td>
-                                        <td><?=$product->title;?></td>
+                                       <td><?=$product->title;?></td>
                                         <td><?=$product->qty; $qty += $product->qty?></td>
                                         <td><?=$product->price;?></td>
+                                        <td> <a href="<?= PATH ;?>/product/<?= $link->alias ;?>"><i class="fa fa-fw fa-eye"></i></a></td>
                                     </tr>
                                 <?php endforeach;?>
                                 <tr class="active">

@@ -15,6 +15,7 @@ class Order extends AppModel
         $order->user_id = $data['user_id'];
         $order->note = $data['note'];
         $order->currency = $_SESSION['cart.currency']['code'];
+        $order->sum = $_SESSION['cart.sum'];
         $order_id = R::store($order);
         self::saveOrderProduct($order_id);
         return $order_id;

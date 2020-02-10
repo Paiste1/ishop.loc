@@ -15,7 +15,7 @@
 <div class="single contact">
     <div class="container">
         <div class="single-main">
-            <div class="col-md-9 single-main-left">
+            <div class="col-md-12 single-main-left">
                 <div class="sngl-top">
                     <div class="col-md-5 single-top-left">
                         <?php if($gallery): ?>
@@ -43,7 +43,7 @@
                     <div class="col-md-7 single-top-right">
                         <div class="single-para simpleCart_shelfItem">
                             <h2><?=$product['title'];?></h2>
-                            <div class="star-on">
+                            <!--<div class="star-on">
                                 <ul class="star-footer">
                                     <li><a href="#"><i> </i></a></li>
                                     <li><a href="#"><i> </i></a></li>
@@ -53,10 +53,9 @@
                                 </ul>
                                 <div class="review">
                                     <a href="#"> 1 customer review </a>
-
                                 </div>
                                 <div class="clearfix"> </div>
-                            </div>
+                            </div>-->
 
                             <h5 class="item_price" id="base-price" data-base="<?=$price;?>"><?=$curr['symbol_left'];?><?=$price;?><?=$curr['symbol_right'];?></h5>
                             <?php if($product['old_price']): ?>
@@ -82,9 +81,9 @@
                                 <li><span>Category</span>
                                     <span class="women1"><a href="category/<?=$cats[$product['category_id']]['alias'];?>"><?=$cats[$product['category_id']]['title'];?></a></span></li>
                             </ul>
-                            <div class="quantity">
+                            <!--<div class="quantity">
                                 <input type="number" size="4" value="1" name="quantity" min="1" step="1">
-                            </div>
+                            </div>-->
                             <a id="productAdd" data-id="<?=$product['id'];?>" href="cart/add?id=<?=$product['id'];?>" class="add-cart item_add add-to-cart-link">ADD TO CART</a>
 
                         </div>
@@ -211,7 +210,7 @@
                     </div>
                 <?php endif;?>
             </div>
-            <div class="col-md-3 single-right">
+            <!--<div class="col-md-3 single-right">
                 <div class="w_sidebar">
                     <section  class="sky-form">
                         <h4>Catogories</h4>
@@ -289,7 +288,7 @@
                         </div>
                     </section>
                 </div>
-            </div>
+            </div>-->
             <div class="clearfix"> </div>
         </div>
     </div>
