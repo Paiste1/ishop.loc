@@ -1,11 +1,11 @@
 -- phpMyAdmin SQL Dump
--- version 4.7.7
+-- version 4.9.0.1
 -- https://www.phpmyadmin.net/
 --
 -- Хост: 127.0.0.1:3306
--- Время создания: Фев 07 2020 г., 08:52
--- Версия сервера: 5.7.20
--- Версия PHP: 7.2.0
+-- Время создания: Фев 11 2020 г., 08:15
+-- Версия сервера: 10.3.13-MariaDB-log
+-- Версия PHP: 7.1.32
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET AUTOCOMMIT = 0;
@@ -165,7 +165,7 @@ CREATE TABLE `category` (
   `id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL,
   `alias` varchar(255) NOT NULL,
-  `parent_id` tinyint(3) UNSIGNED NOT NULL DEFAULT '0' COMMENT 'id родит. катег.',
+  `parent_id` tinyint(3) UNSIGNED NOT NULL DEFAULT 0 COMMENT 'id родит. катег.',
   `keywords` varchar(255) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
@@ -248,7 +248,7 @@ CREATE TABLE `modification` (
   `id` int(10) UNSIGNED NOT NULL,
   `product_id` int(10) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL COMMENT 'Название модификации',
-  `price` float NOT NULL DEFAULT '0'
+  `price` float NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -272,23 +272,27 @@ INSERT INTO `modification` (`id`, `product_id`, `title`, `price`) VALUES
 CREATE TABLE `order` (
   `id` int(10) UNSIGNED NOT NULL,
   `user_id` int(10) UNSIGNED NOT NULL,
-  `status` int(10) NOT NULL DEFAULT '0',
-  `date` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `status` int(10) NOT NULL DEFAULT 0,
+  `date` timestamp NOT NULL DEFAULT current_timestamp(),
   `update_at` timestamp NULL DEFAULT NULL COMMENT 'дата обработки',
   `currency` varchar(10) NOT NULL COMMENT 'валюта',
-  `note` text COMMENT 'примечание'
+  `note` text DEFAULT NULL COMMENT 'примечание',
+  `sum` float NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
 -- Дамп данных таблицы `order`
 --
 
-INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`) VALUES
-(9, 2, 1, '2020-01-15 11:42:53', NULL, 'RUB', 'test'),
-(10, 2, 2, '2020-01-15 12:51:07', NULL, 'RUB', '431'),
-(11, 5, 1, '2020-01-15 13:01:47', '2020-01-21 06:15:05', 'RUB', 'Сашка барабашка'),
-(12, 2, 2, '2020-01-15 13:20:44', NULL, 'RUB', '13'),
-(13, 2, 0, '2020-01-21 06:31:51', '2020-01-21 06:14:05', 'RUB', 'test');
+INSERT INTO `order` (`id`, `user_id`, `status`, `date`, `update_at`, `currency`, `note`, `sum`) VALUES
+(9, 2, 1, '2020-01-15 11:42:53', NULL, 'RUB', 'test', 0),
+(10, 2, 2, '2020-01-15 12:51:07', NULL, 'RUB', '431', 0),
+(11, 5, 1, '2020-01-15 13:01:47', '2020-01-21 06:15:05', 'RUB', 'Сашка барабашка', 0),
+(12, 2, 2, '2020-01-15 13:20:44', NULL, 'RUB', '13', 0),
+(13, 2, 0, '2020-01-21 06:31:51', '2020-01-21 06:14:05', 'RUB', 'test', 0),
+(23, 2, 0, '2020-02-11 05:00:06', NULL, 'RUB', 'комментарий от Алешки', 300),
+(24, 2, 0, '2020-02-11 05:06:28', NULL, 'RUB', 'hello world !', 300),
+(25, 2, 0, '2020-02-11 05:10:53', NULL, 'RUB', 'hello!', 300);
 
 -- --------------------------------------------------------
 
@@ -322,7 +326,10 @@ INSERT INTO `order_product` (`id`, `order_id`, `product_id`, `qty`, `title`, `pr
 (34, 12, 2, 1, 'Casio MQ-24-7BUL', 70),
 (35, 13, 1, 1, 'Casio MRP-700-1AVEF', 300),
 (36, 13, 3, 1, 'Casio GA-1000-1AER', 400),
-(37, 13, 2, 2, 'Casio MQ-24-7BUL (Silver)', 80);
+(37, 13, 2, 2, 'Casio MQ-24-7BUL (Silver)', 80),
+(51, 23, 1, 1, 'Casio MRP-700-1AVEF', 300),
+(52, 24, 1, 1, 'Casio MRP-700-1AVEF', 300),
+(53, 25, 1, 1, 'Casio MRP-700-1AVEF', 300);
 
 -- --------------------------------------------------------
 
@@ -335,14 +342,14 @@ CREATE TABLE `product` (
   `category_id` tinyint(3) UNSIGNED NOT NULL,
   `title` varchar(255) NOT NULL,
   `alias` varchar(255) NOT NULL COMMENT 'для поиска',
-  `content` text,
-  `price` float NOT NULL DEFAULT '0',
+  `content` text DEFAULT NULL,
+  `price` float NOT NULL DEFAULT 0,
   `old_price` varchar(10) NOT NULL DEFAULT '0',
-  `status` tinyint(1) NOT NULL DEFAULT '1',
+  `status` tinyint(1) NOT NULL DEFAULT 1,
   `keywords` varchar(255) DEFAULT NULL,
   `description` varchar(255) DEFAULT NULL,
   `img` varchar(255) NOT NULL DEFAULT 'no_image.jpg',
-  `hit` tinyint(1) NOT NULL DEFAULT '0'
+  `hit` tinyint(1) NOT NULL DEFAULT 0
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8;
 
 --
@@ -585,13 +592,13 @@ ALTER TABLE `modification`
 -- AUTO_INCREMENT для таблицы `order`
 --
 ALTER TABLE `order`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=14;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=26;
 
 --
 -- AUTO_INCREMENT для таблицы `order_product`
 --
 ALTER TABLE `order_product`
-  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=38;
+  MODIFY `id` int(10) UNSIGNED NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=54;
 
 --
 -- AUTO_INCREMENT для таблицы `product`

@@ -85,7 +85,7 @@
                                 <?php endif; ?>
                                 <div class="form-group">
                                     <label for="address">Комментарий к заказу</label>
-                                    <textarea name="note" class="form-control"></textarea>
+                                    <textarea name="note" class="form-control" value="<?= isset($_SESSION['form_data']['note']) ? $_SESSION['form_data']['note'] : '' ?>"></textarea>
                                 </div>
                                 <button type="submit" class="btn btn-default">Оформить</button>
                             </form>

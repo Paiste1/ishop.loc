@@ -27,17 +27,21 @@
             <td style="padding: 8px; border: 1px solid #ddd;"><?=$item['price'] * $item['qty'] ?></td>
         </tr>
     <?php endforeach;?>
-        <!--<tr>Комментарий к заказу:
-            <p><?//=$data['note'];?></p>
+    <?php if (!empty($_SESSION['note'])): ?>
+        <!--<tr>
+            <td colspan="3" style="padding: 8px; border: 1px solid #ddd;">Комментарий к заказу:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;"><?//= $_SESSION['note'];?></td>
+        </tr> -->
+        <p style="padding: 8px; border: 1px solid #ddd;"><b>Комментарий к заказу: </b> <?= $_SESSION['note'];?></p>
+    <?php endif; ;?>
+        <tr>
+            <td colspan="3" style="padding: 8px; border: 1px solid #ddd;">Итого:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;"><?=$_SESSION['cart.qty'] ?></td>
         </tr>
-    <tr>-->
-        <td colspan="3" style="padding: 8px; border: 1px solid #ddd;">Итого:</td>
-        <td style="padding: 8px; border: 1px solid #ddd;"><?=$_SESSION['cart.qty'] ?></td>
-    </tr>
-    <tr>
-        <td colspan="3" style="padding: 8px; border: 1px solid #ddd;">На сумму:</td>
-        <td style="padding: 8px; border: 1px solid #ddd;"><?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] . " {$_SESSION['cart.currency']['symbol_right']}" ?></td>
-    </tr>
+        <tr>
+            <td colspan="3" style="padding: 8px; border: 1px solid #ddd;">На сумму:</td>
+            <td style="padding: 8px; border: 1px solid #ddd;"><?= $_SESSION['cart.currency']['symbol_left'] . $_SESSION['cart.sum'] . " {$_SESSION['cart.currency']['symbol_right']}" ?></td>
+        </tr>
     </tbody>
 </table>
 

@@ -17,7 +17,7 @@ class CategoryController extends AppController
         if(!$category){
             throw new \Exception('Страница не найдена!', 404);
         }
-
+        debug($_SESSION);
         // хлебные крошки
         $breadcrumbs = Breadcrumbs::getBreadcrumbs($category->id);
 

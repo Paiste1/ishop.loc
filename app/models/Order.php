@@ -14,8 +14,10 @@ class Order extends AppModel
         $order = R::dispense('order');
         $order->user_id = $data['user_id'];
         $order->note = $data['note'];
+        $_SESSION['note'] = $order->note;
         $order->currency = $_SESSION['cart.currency']['code'];
         $order->sum = $_SESSION['cart.sum'];
+//        debug($_SESSION,1);
         $order_id = R::store($order);
         self::saveOrderProduct($order_id);
         return $order_id;
@@ -66,6 +68,7 @@ class Order extends AppModel
         unset($_SESSION['cart.qty']);
         unset($_SESSION['cart.sum']);
         unset($_SESSION['cart.currency']);
+        unset($_SESSION['note']);
         $_SESSION['success'] = 'Спасибо за Ваш заказ! В ближайшее время с Вами свяжется менеджер для согласования заказа!';
     }
 }

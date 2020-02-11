@@ -1021,3 +1021,33 @@
 =====================
 [2020-02-10 14:37:05] Текст ошибки: syntax error, unexpected '<', expecting end of file | Файл: C:\OSPanel\domains\ishop.loc\app\views\templates\admin.php | Строка: 623
 =====================
+[2020-02-11 06:48:17] Текст ошибки: SQLSTATE[HY000]: General error: 2006 MySQL server has gone away | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-11 06:48:18] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-11 06:51:44] Текст ошибки: Нет соединения с БД! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Db.php | Строка: 18
+=====================
+[2020-02-11 06:51:55] Текст ошибки: Нет соединения с БД! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Db.php | Строка: 18
+=====================
+[2020-02-11 06:53:29] Текст ошибки: SQLSTATE[HY000]: General error: 1812 Tablespace is missing for table `ishop`.`order`. | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-11 06:57:08] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-11 06:57:20] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-11 06:57:29] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-11 06:57:46] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-11 06:57:53] Текст ошибки: SQLSTATE[HY000]: General error: 1812 Tablespace is missing for table `ishop`.`order`. | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-11 07:35:37] Текст ошибки: SQLSTATE[42S22]: Column not found: 1054 Unknown column 'sum' in 'field list' | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-11 07:35:38] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-11 07:42:00] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
+[2020-02-11 07:42:38] Текст ошибки: SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '),(17, 2, 1, 'Casio MQ-24-7BUL', 70, )' at line 1 | Файл: C:\OSPanel\domains\ishop.loc\vendor\gabordemooij\redbean\RedBeanPHP\Driver\RPDO.php | Строка: 194
+=====================
+[2020-02-11 07:44:37] Текст ошибки: Страница не найдена! | Файл: C:\OSPanel\domains\ishop.loc\vendor\ishop\core\Router.php | Строка: 47
+=====================
